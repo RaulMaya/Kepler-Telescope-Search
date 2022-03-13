@@ -74,6 +74,7 @@ This section lists the selected machine learning models, for future evaluations 
 
 - #### Logistic Regression Model
   - Classification Report:
+
   |      | Precision  | Recall| F1-Score   | Support |
   | ------------- | ------------- | ----- | ---- | ---- |
   | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
@@ -82,14 +83,16 @@ This section lists the selected machine learning models, for future evaluations 
 
 - #### SVC Model
   - Classification Report:
+
   |      | Precision  | Recall| F1-Score   | Support |
   | ------------- | ------------- | ----- | ---- | ---- |
   | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
   | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
   | CANDIDATE | 0.76 | 0.62 | 0.68 | 504 |
 
-- #### KNeighborsClassifier Model1
+- #### KNeighborsClassifier Model
   - Classification Report:
+
   |      | Precision  | Recall| F1-Score   | Support |
   | ------------- | ------------- | ----- | ---- | ---- |
   | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
@@ -98,6 +101,7 @@ This section lists the selected machine learning models, for future evaluations 
 
 - #### Decision Tree Model
   - Classification Report:
+
     |      | Precision  | Recall| F1-Score   | Support |
     | ------------- | ------------- | ----- | ---- | ---- |
     | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
@@ -106,6 +110,7 @@ This section lists the selected machine learning models, for future evaluations 
 
 - #### Random Forest Model
   - Classification Report:
+  
   |      | Precision  | Recall| F1-Score   | Support |
   | ------------- | ------------- | ----- | ---- | ---- |
   | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
