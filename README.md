@@ -44,6 +44,20 @@ This section lists the selected machine learning models, for future evaluations 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+### Concepts Glossary
+
+* [Accuracy](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.accuracy_score.html#sklearn.metrics.accuracy_score): Ratio of corrected predicted observations to the total number of observations; The fraction of correctly classified samples, is not always an useful metric.
+
+* [Precision](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.precision_score.html#sklearn.metrics.precision_score): It is the percentage of correctly classified observations in our model; Example: The number of correctly divided by the total number of emails classified as spam; from the spam emails that your model classify, which ones are really spam.
+
+* [Recall](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.recall_score.html#sklearn.metrics.recall_score): Refers where you classify your negative cases, if you don't confuse negative cases with positive cases. Example: in a RED and BLUE classification problem, the recall stands for the 100 % of BLUES, how many of them did you recognize correctly.
+
+* [F1-Score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html#sklearn.metrics.f1_score): It combines the precision and recall of a classifier into a single metric by taking their harmonic mean. It is primarily used to compare the performance of two classifiers.
+
+* [Support](https://scikit-learn.org/stable/modules/model_evaluation.html): It stands for the number of observations.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ### Model Comparison
 
 <div align="center">
@@ -57,6 +71,13 @@ This section lists the selected machine learning models, for future evaluations 
 | Random Forest | MinMaxScaler | n_estimators: 500 | 87.31 % | 16 |
 
 </div>
+
+- #### Logistic Regression Model
+- #### SVC Model
+- #### KNeighborsClassifier Model
+- #### Decision Tree Model
+- #### Random Forest Model
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
