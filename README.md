@@ -82,6 +82,11 @@ This section lists the selected machine learning models, for future evaluations 
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
     | CANDIDATE | 0.76 | 0.62 | 0.68 | 504 |
 
+  - According to the Classification Report of the **Logistic Regression Model**:
+      - In the precision topic, only 72% of the values that were predicted as **CONFIRMED** are **TRUE CONFIRMED**, meanwhile 98% of the values that were predicted as **FALSE POSITIVES** are **TRUE FALSE POSITIVES**, for the **CANDIDATES** predictions only 76% of the values predicted as CANDIDATES were **TRUE CANDIDATES** values.
+
+      - For the recall, the model recognize correctly 80% of 100% **CONFIRMED** values (From the 100% of **CONFIRMED** values, which percentage our model recognize correctly), for the **FALSE POSITIVE** values it seems that the model had a perfect recall (100%) of recognizing **FALSE POSITIVE** values. Meanwhile in the **CANDIDATE** target, the model recognize only the 62% of the 100% **CANDIDATES**.
+
 - #### SVC Model
 
   - Classification Report:
@@ -91,6 +96,11 @@ This section lists the selected machine learning models, for future evaluations 
     | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
     | CANDIDATE | 0.80 | 0.62 | 0.70 | 504 |
+
+    - According to the Classification Report of the **SVC Model**:
+        - In the precision topic, only 72% of the values that were predicted as **CONFIRMED** are **TRUE CONFIRMED**, meanwhile 98% of the values that were predicted as **FALSE POSITIVES** are **TRUE FALSE POSITIVES**, for the **CANDIDATES** predictions only 80% of the values predicted as CANDIDATES were **TRUE CANDIDATES** values.
+
+        - For the recall, the model recognize correctly 80% of 100% **CONFIRMED** values (From the 100% of **CONFIRMED** values, which percentage our model recognize correctly), for the **FALSE POSITIVE** values it seems that the model had a perfect recall (100%) of recognizing **FALSE POSITIVE** values. Meanwhile in the **CANDIDATE** target, the model recognize only the 62% of the 100% **CANDIDATES**.
 
 - #### KNeighborsClassifier Model
 
@@ -102,6 +112,11 @@ This section lists the selected machine learning models, for future evaluations 
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
     | CANDIDATE | 0.69 | 0.57 | 0.62 | 504 |
 
+    - According to the Classification Report of the **KNeighborsClassifier Model**:
+        - In the precision topic, only 67% of the values that were predicted as **CONFIRMED** are **TRUE CONFIRMED**, meanwhile 98% of the values that were predicted as **FALSE POSITIVES** are **TRUE FALSE POSITIVES**, for the **CANDIDATES** predictions only 69% of the values predicted as CANDIDATES were **TRUE CANDIDATES** values.
+
+        - For the recall, the model recognize correctly 75% of 100% **CONFIRMED** values (From the 100% of **CONFIRMED** values, which percentage our model recognize correctly), for the **FALSE POSITIVE** values it seems that the model had a perfect recall (100%) of recognizing **FALSE POSITIVE** values. Meanwhile in the **CANDIDATE** target, the model recognize only the 57% of the 100% **CANDIDATES**.
+
 - #### Decision Tree Model
 
   - Classification Report:
@@ -111,6 +126,11 @@ This section lists the selected machine learning models, for future evaluations 
     | CONFIRMED | 0.75 | 0.87 | 0.81 | 574 |
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
     | CANDIDATE | 0.84 | 0.66 | 0.74 | 504 |
+
+    - According to the Classification Report of the **Decision Tree Model**:
+        - In the precision topic, only 75% of the values that were predicted as **CONFIRMED** are **TRUE CONFIRMED**, meanwhile 98% of the values that were predicted as **FALSE POSITIVES** are **TRUE FALSE POSITIVES**, for the **CANDIDATES** predictions only 84% of the values predicted as CANDIDATES were **TRUE CANDIDATES** values.
+
+        - For the recall, the model recognize correctly 87% of 100% **CONFIRMED** values (From the 100% of **CONFIRMED** values, which percentage our model recognize correctly), for the **FALSE POSITIVE** values it seems that the model had a perfect recall (100%) of recognizing **FALSE POSITIVE** values. Meanwhile in the **CANDIDATE** target, the model recognize only the 66% of the 100% **CANDIDATES**.
 
 - #### Random Forest Model
 
@@ -122,8 +142,15 @@ This section lists the selected machine learning models, for future evaluations 
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
     | CANDIDATE | 0.82 | 0.78 | 0.80 | 504 |
 
+    - According to the Classification Report of the **Random Forest Model**:
+        - In the precision topic, only 82% of the values that were predicted as **CONFIRMED** are **TRUE CONFIRMED**, meanwhile 98% of the values that were predicted as **FALSE POSITIVES** are **TRUE FALSE POSITIVES**, for the **CANDIDATES** predictions only 82% of the values predicted as CANDIDATES were **TRUE CANDIDATES** values.
+
+        - For the recall, the model recognize correctly 83% of 100% **CONFIRMED** values (From the 100% of **CONFIRMED** values, which percentage our model recognize correctly), for the **FALSE POSITIVE** values it seems that the model had a perfect recall (100%) of recognizing **FALSE POSITIVE** values. Meanwhile in the **CANDIDATE** target, the model recognize only the 78% of the 100% **CANDIDATES**.
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+### Model Selection (Conclusion)
 
 ### Contact :iphone:
 
@@ -132,3 +159,5 @@ This section lists the selected machine learning models, for future evaluations 
 * E-mail: raulmayas20@gmail.com
 * GitHub: https://github.com/RaulMaya
 * LinkedIn: https://www.linkedin.com/in/raul-maya/
+
+<p align="right">(<a href="#top">back to top</a>)</p>
