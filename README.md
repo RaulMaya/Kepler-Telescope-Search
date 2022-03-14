@@ -90,7 +90,7 @@ This section lists the selected machine learning models, for future evaluations 
     | ------------- | ------------- | ----- | ---- | ---- |
     | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
-    | CANDIDATE | 0.76 | 0.62 | 0.68 | 504 |
+    | CANDIDATE | 0.80 | 0.62 | 0.70 | 504 |
 
 - #### KNeighborsClassifier Model
 
@@ -98,9 +98,9 @@ This section lists the selected machine learning models, for future evaluations 
 
     |      | Precision  | Recall| F1-Score   | Support |
     | ------------- | ------------- | ----- | ---- | ---- |
-    | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
+    | CONFIRMED | 0.67 | 0.75 | 0.71 | 574 |
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
-    | CANDIDATE | 0.76 | 0.62 | 0.68 | 504 |
+    | CANDIDATE | 0.69 | 0.57 | 0.62 | 504 |
 
 - #### Decision Tree Model
 
@@ -108,9 +108,9 @@ This section lists the selected machine learning models, for future evaluations 
 
     |      | Precision  | Recall| F1-Score   | Support |
     | ------------- | ------------- | ----- | ---- | ---- |
-    | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
+    | CONFIRMED | 0.75 | 0.87 | 0.81 | 574 |
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
-    | CANDIDATE | 0.76 | 0.62 | 0.68 | 504 |
+    | CANDIDATE | 0.84 | 0.66 | 0.74 | 504 |
 
 - #### Random Forest Model
 
@@ -118,9 +118,9 @@ This section lists the selected machine learning models, for future evaluations 
 
     |      | Precision  | Recall| F1-Score   | Support |
     | ------------- | ------------- | ----- | ---- | ---- |
-    | CONFIRMED | 0.72 | 0.80 | 0.76 | 574 |
+    | CONFIRMED | 0.82 | 0.83 | 0.83 | 574 |
     | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
-    | CANDIDATE | 0.76 | 0.62 | 0.68 | 504 |
+    | CANDIDATE | 0.82 | 0.78 | 0.80 | 504 |
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
