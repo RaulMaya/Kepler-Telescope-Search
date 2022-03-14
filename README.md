@@ -152,6 +152,27 @@ This section lists the selected machine learning models, for future evaluations 
 
 ### Model Selection (Conclusion)
 
+Comparing the developed models, and according to the metrics, it can be demonstrated that there are 2 models that seems to be performing better than the rest: the Random Forest and the Decision Tree, both of them have a very close accuracy:
+
+  * Decision Tree Accuracy: 88.32 %
+
+  |      | Precision  | Recall| F1-Score   | Support |
+  | ------------- | ------------- | ----- | ---- | ---- |
+  | CONFIRMED | 0.75 | 0.87 | 0.81 | 574 |
+  | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
+  | CANDIDATE | 0.84 | 0.66 | 0.74 | 504 |
+
+  * Random Forest Accuracy: 87.31 %
+
+  |      | Precision  | Recall| F1-Score   | Support |
+  | ------------- | ------------- | ----- | ---- | ---- |
+  | CONFIRMED | 0.82 | 0.83 | 0.83 | 574 |
+  | FALSE POSITIVE  | 0.98 | 1.00| 0.99 | 1020 |
+  | CANDIDATE | 0.82 | 0.78 | 0.80 | 504 |
+
+But if it's needed to select one of these two models, even though the Decision Tree has a higher accuracy score, I might stick with the Random Forest, because most of the times (if not always) we want both our 'Precision' and 'Recall' high, this in order to be able to predict positive and negative values in a correct way. That's why I select the Random Forest Model as the best for this problem, despite all models selected in this repository do a great job predicting exoplanets.
+
+
 ### Contact :iphone:
 
 * Name: Raul Maya Salazar
